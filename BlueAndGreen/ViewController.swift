@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     @IBAction func blueBtnTapped(_ sender: Any) {
       
-        colorView.backgroundColor = UIColor.blue
+        colorView.backgroundColor = UIColor.magenta
         for i in 1...10 {
             if (i % 2 != 0) {
                 print(" i = \(i)")
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     
     @IBAction func greenBtnTapped(_ sender: Any) {
         colorView.backgroundColor = UIColor.green
-        blueButton.setTitle("BLUE", for: .normal)
+        blueButton.setTitle("Magneta", for: .normal)
     }
 
 
